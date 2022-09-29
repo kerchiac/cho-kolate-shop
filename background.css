@@ -44,6 +44,9 @@ body{
         min-height: calc(100vh - 5rem);
         position: relative;
     }
+    #more{
+        flex: 0 50%;
+    }
 }
 
 
@@ -160,4 +163,7 @@ body{
     border-radius: 0.25rem;
     width: 256px;
     height: 150px;
+}
+#more{
+    flex-wrap: wrap;
 }
